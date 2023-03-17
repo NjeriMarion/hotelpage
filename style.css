@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topSection{
+    color: white;
+    background-image: url(hotelview.jpg);
+    background-size: cover;
+    padding-bottom: 0.02px;
+}
+.navbar{
+    display: flex;
+    background-color: #343a40;
+    opacity: 70%;
+    padding: 15px 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+#logo{
+    color: #1971c2;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: x-large;
+}
+#home{
+    gap: 30px;
+    margin-left: 10%;
+    font-weight: 800;
+    margin-right: 25%;
+    font-size: large;
+}
+#logInButton{
+    background:none;
+    color: #83b5e4;
+    padding:8px 25px;
+    border-color: #1971c2;
+    border-radius: 8%;
+}
+#signUpButton{
+    background-color: #1971c2;
+    padding: 8px 25px;
+    color: white;
+    border-radius: 8%;   
+}
+.midtext{
+    margin-top: 17%;
+    margin-bottom: 15%;
+}
+.midtext p{
+    margin-left: 40%;
+    font-weight: 1000;
+    /* font-size: xx-large; */
+}
+.midtext h1{
+    margin-left: -10%;
+    font-size: xxx-large;
+}
+#hotel{
+    color: #1971c2
+}
+.reservations li{
+    font-weight: bold;
+    font-size:medium;
+    border-right: 2px solid;
+
+}
+.reservations{
+    display: flex;
+    background-color:white;
+    color: black;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    list-style: none;
+    gap: 25px;
+    border-radius: 50px;
+    margin-right: 20%;
+    margin-left: 30%;
+    margin-top: 7%;  
+    border-style: none; 
+}
+#icons{
+    color: #1971c2;
+    width: 35px;
+    height: 20px;
+}
+.popular{
+    color: #343a40;
+    font-size: xxx-large;
+    margin: 6% 1% 3% 32% ;
+
+}
+.popular-hotels{
+    display: flex;
+    gap: 40px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.hotelone{
+    background-image: url(hotelone.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    padding-left: 15px;
+    border-radius: 4%;
+}
+
+.hotelone p{
+    margin-top: 90%;
+    font-weight:bolder;
+    font-size: larger;
+    color: white;
+}
+.hoteltwo{
+    background-image: url(hoteltwo.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    padding-left: 15px;
+    border-radius: 4%;
+}
+.hoteltwo p{
+    margin-top: 90%;
+    font-weight: bolder;
+    color: white;
+    font-size: larger;
+}
+.hotelthree{
+    background-image: url(hotelthree.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    padding-left: 15px;
+    border-radius: 4%;
+}
+.hotelthree p{
+    margin-top: 90%;
+    font-weight: bolder;
+    color: white;
+    font-size: larger;
+}
+#seemorebutton{
+    padding: 15px 35px;
+    border-color: #1971c2;
+    color: #1971c2;
+    background: none;
+    border-radius: 10%;
+    margin-left: 45%;
+}
+.facilities{
+    color: #343a40;
+    font-size: xxx-large;
+    margin: 4% 1% 5% 40% ;
+}
+.ourFacilities{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    margin-left: 18%;
+}
+.ourFacilities div{
+    background-color: #f8f9fa;
+    color: #1971c2;
+    height: 250px;
+    margin: 7%;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 10px;
+    border-radius: 8%;
+    padding-left: 25px;
+}
+#icon{
+    height: 50%;
+    width: 50%;
+}
+.rooms{
+    color: #343a40;
+    margin-top: 4%;
+    margin-left: 30%;
+    letter-spacing: 2px;
+    font-weight:bold;
+    font-size: larger;
+}
+.rooms h1{
+    margin-left: 15%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.sixrooms{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    margin-left: 10%;
+    gap: 15%;
+    margin-top: 5%;
+}
+.sixrooms div{
+    background-color: #f8f9fa;
+    height: 400px;
+    width: 350px;
+    margin-left: 7%;
+    border-radius: 5%;
+}
+.sixrooms div img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5%;
+}
+.sixrooms div ul{
+    list-style: none;
+    display: flex;
+    gap: 35%;
+    padding: 15px;
+}
+.sixrooms div p{
+    font-size:x-large;
+    font-weight: bolder;
+    margin: 4%;
+    color: #343a40;
+}
+#ratings{
+    color: #1971c2;
+}
+.menu{
+    color: #343a40;
+    margin-top: 14%;
+    margin-left: 32%;
+    letter-spacing: 2px;
+    font-weight:bold;
+    font-size: larger;
+}
+.menu h1{
+    margin-left: 15%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.menu ul{
+    margin-top: 5%;
+    margin-left: 5%;
+    list-style: none;
+    display: flex;
+    gap: 8%;
+    font-size: larger;
+    font-weight: bold;
+}
+#lunch{
+    color: #1971c2;
+    padding-bottom: 9px;
+    border-bottom: #1971c2 solid 2px;
+}
+#amount{
+    border-style: none;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    background: none;
+    margin-right: 5%;
+
+}
+.sixmeals div{ 
+    background-color: #f8f9fa;
+    height: 380px;
+    width: 350px;
+    margin-left: 7%;
+    margin-top: 2%;
+    border-radius: 5%;
+}
+
+#mealnames{
+    display: flex;
+    list-style: none;
+    gap: 30%;
+    margin-bottom: 7%;
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: large;
+}
+.sixmeals div img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5%;
+}
+#meallists ul li{
+    list-style: none;
+    margin-left: 4%;
+}
+.sixmeals{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    margin-left: 10%;
+    gap: 15%;
+    margin-top: 5%;
+}
+.response{
+    color: #343a40;
+    font-size: xxx-large;
+    margin: 16% 1% 3% 32% ;
+
+}
+.responses{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    margin-left: 10%;
+    gap: 15%;
+    margin-top: 5%;
+}
+.responses div{
+    background-color: #f8f9fa;
+    height: 180px;
+    width: 300px;
+    margin-left: 25%;
+    margin-top: 2%;
+    border-radius: 5%;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 20px;
+}
+#uiface{
+   border-radius: 100%;
+
+}
+.responses div ul{
+    list-style: none;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+#career{
+    color: #1971c2;
+    margin-top: 5%;
+}
+#arrows ul{ 
+    margin-top: 10%;
+    color: #1971c2;
+    margin-left: 43%;
+    list-style: none;
+    display: flex;
+    gap: 1px;
+    
+}
+#arrows ul li{
+    width: 50px;
+}
+#arrowicon{
+    width: 50px;
+    height: 60px;
+}
+.chooseus{
+    color: #343a40;
+    font-size: xxx-large;
+    margin: 16% 1% 3% 32% ;
+    margin-top: 5%;
+}
+.whychooseus{
+    margin-left: 10%;
+    display: flex;
+    font-size: larger;
+    gap: 10%;
+    margin-top: 5%;
+
+}
+.whychooseus ul{
+   
+    list-style: none;
+    display: flex;
+    margin-left: 8%;
+    gap: 8%;
+    margin-top: 4%;
+}
+#serviceicon{
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 100%;
+    margin-top: 16%;
+    color: #1971c2;
+    width: 90px;
+    height: 80px;
+}
+#bluebutton{
+    padding: 15px 35px;
+    background-color: #1971c2;
+    border-radius: 5%;
+    border-style: none;
+    color: white;
+    font-size: large;
+    margin-left: 5%;
+}
+.subscription{
+    margin-top: 5%;
+    background-color: #339af0;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 36%;
+    font-size: larger;
+    font-weight: 800;
+    border-top-right-radius: 35%;
+    border-top-left-radius: 35%;
+}
+#email{
+    background-color: white;
+    padding: 10px;
+    margin-top: 3%;
+    margin-right: 43%;
+    border-radius: 50px;
+}
+#emailholder{
+    border-style: none;
+    font-size: medium;
+}
+#subcribe{
+    margin-left: 30%;
+    color: white;
+    background-color: #339af0;
+    border-radius: 50px;
+    border-style: none;
+    padding: 15px 40px;
+}
+.footer{
+    font-size: large;
+    font-weight: 500;
+    margin-top: 6%;
+    padding-left: 9%;
+    background-color: #f1f3f5;
+    display: flex;
+    gap: 8%;
+    padding-bottom: 3%;
+}
+.footer ul{
+  list-style: none;
+  margin-top: 3%;
+  margin-right: 10%;
+
+}
+#footerul1{
+    display: flex;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    gap: 15px;
+    margin-right: 10%;
+}
+#footerdiv2{
+    margin-top: 1%;
+    margin-left: 28%;
+    display: flex;
+    gap: 55%;
+}
+#footerdiv2 ul{
+    gap: 25%;
+    letter-spacing: 2px;
+}
+#top{
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+#hotellogo{
+    color: #1971c2;
+}
+@media  screen and (max-width: 900px){
+    .navbar ul li{
+        gap: 2px;
+        margin: 1px;
+        font-size: 10px;
+
+    }
+    .topSection{
+        width: 470px;
+        height: 300px;
+        font-size: 5px;
+    }
+    #logInButton{
+        padding: 1px;
+        margin-left: -95%;
+    }
+    #signUpButton{
+        padding: 1px;
+        margin-left: -80%; 
+    }
+    .midtext{
+        margin: 2%;
+    }
+    .midtext p{
+        font-size: medium;
+    }
+    .reservations{
+        padding: 2px;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .popular{
+        font-size: 20px;
+        margin-left: 75px;
+    }
+    .popular-hotels{
+        margin-left: 1%;
+        gap: 8px;
+    }
+    .hotelone{
+            width: 150px;
+        }
+    .hoteltwo{
+        width: 150px;
+    }
+    .hotelthree{
+        width: 150px;
+    }
+
+}
