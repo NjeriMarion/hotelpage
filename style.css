@@ -26,6 +26,9 @@
     font-weight: bold;
     font-size: x-large;
 }
+#home li{
+    margin-right:15% ;
+}
 #home{
     gap: 30px;
     margin-left: 10%;
@@ -33,18 +36,28 @@
     margin-right: 25%;
     font-size: large;
 }
+#home a{
+    text-decoration: none;
+    color: #f1f3f5;
+}
 #logInButton{
     background:none;
     color: #83b5e4;
     padding:8px 25px;
     border-color: #1971c2;
     border-radius: 8%;
+    /* margin-left: 85%; */
+}
+#loginSignup {
+    margin-left:140% ;
 }
 #signUpButton{
     background-color: #1971c2;
     padding: 8px 25px;
     color: white;
-    border-radius: 8%;   
+    border-radius: 8%;  
+    border-style: none;
+    margin-left: 5%; 
 }
 .midtext{
     margin-top: 17%;
@@ -97,15 +110,15 @@
 }
 .popular-hotels{
     display: flex;
-    gap: 40px;
-    margin-left: 10%;
+    gap: 30px;
+    margin-left: 6%;
     margin-bottom: 2%;
 }
 .hotelone{
     background-image: url(hotelone.jpg);
     background-size: cover;
     height: 400px;
-    width: 400px;
+    width: 380px;
     padding-left: 15px;
     border-radius: 4%;
 }
@@ -120,7 +133,7 @@
     background-image: url(hoteltwo.jpg);
     background-size: cover;
     height: 400px;
-    width: 400px;
+    width: 380px;
     padding-left: 15px;
     border-radius: 4%;
 }
@@ -134,7 +147,7 @@
     background-image: url(hotelthree.jpg);
     background-size: cover;
     height: 400px;
-    width: 400px;
+    width: 380px;
     padding-left: 15px;
     border-radius: 4%;
 }
@@ -186,7 +199,7 @@
     font-size: larger;
 }
 .rooms h1{
-    margin-left: 15%;
+    margin-left: 10%;
     margin-bottom: 3%;
     margin-top: 5%;
 }
@@ -194,7 +207,7 @@
     display: grid;
     grid-template-columns: 250px 250px 250px;
     margin-left: 10%;
-    gap: 15%;
+    gap: 10%;
     margin-top: 5%;
 }
 .sixrooms div{
@@ -291,7 +304,7 @@
     display: grid;
     grid-template-columns: 250px 250px 250px;
     margin-left: 10%;
-    gap: 15%;
+    gap: 10%;
     margin-top: 5%;
 }
 .response{
@@ -411,12 +424,12 @@
     font-size: medium;
 }
 #subcribe{
-    margin-left: 30%;
+    margin-left: 20%;
     color: white;
     background-color: #339af0;
     border-radius: 50px;
     border-style: none;
-    padding: 15px 40px;
+    padding: 15px 35px;
 }
 .footer{
     font-size: large;
@@ -458,53 +471,211 @@
 #hotellogo{
     color: #1971c2;
 }
-@media  screen and (max-width: 900px){
-    .navbar ul li{
-        gap: 2px;
-        margin: 1px;
-        font-size: 10px;
 
-    }
-    .topSection{
-        width: 470px;
-        height: 300px;
-        font-size: 5px;
-    }
-    #logInButton{
-        padding: 1px;
-        margin-left: -95%;
-    }
-    #signUpButton{
-        padding: 1px;
-        margin-left: -80%; 
-    }
-    .midtext{
-        margin: 2%;
-    }
-    .midtext p{
-        font-size: medium;
-    }
-    .reservations{
-        padding: 2px;
-        font-size: 10px;
-        margin-left: 5px;
-    }
-    .popular{
-        font-size: 20px;
-        margin-left: 75px;
-    }
-    .popular-hotels{
-        margin-left: 1%;
-        gap: 8px;
-    }
-    .hotelone{
-            width: 150px;
-        }
-    .hoteltwo{
-        width: 150px;
-    }
-    .hotelthree{
-        width: 150px;
-    }
+.navbarhotel{
+    display: flex;
+    padding: 15px 0;
+    margin-top: 2%;
+}
+.navbarhotel ul{
+    display: flex;
+    list-style: none;
+    
+}
+#floatinghotel{
+    height: 500px;
+    border-radius: 2%;
+}
+#pool{
+    height: 150px;
+    width: 150px;
+    border-radius: 3%;
+}
+.starView{
+    margin-top: 5%;
+    display: flex;
+    margin-left: 5%;
+    gap: 5%;
+}
+.smallerimages1{
+    margin-top: 2%;
+    display: flex;
+    gap: 4%;
+    
+}
+.smallerimages2{
+    display: flex;
+    margin-top: 3%;
+    gap: 4%;
+}
+.smallerimages3{
+    display: flex;
+    margin-top: 3%;
+    gap: 4%;
+}
+.indusRiver{
+    color: #868e96;
+    display: flex;
+    gap: 42%;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+.indusRiver div h3{
+    color: #495057;
+    margin-bottom: 5%;
+}
+.indusRiver div button{
+    color: white;
+    background-color: #339af0;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border-style: none;
+}
+.details{
+    margin-top: 3%;
+    margin-left: 8%;
+    display: flex;
+    gap: 37%;
+    color: #495057;
+}
+.details div ul{
+    list-style: none;
+    margin-bottom: 7%;
+    line-height: 32px;
 
+}
+.food-facilities{
+    margin-top: 5%;
+    background-color: #f1f3f5;
+    border-radius: 10px;
+    padding: 30px ;
+    height: 230px;
+    width: 500px;
+}
+.food-facilities div ul{
+    display: flex;
+    gap: 45px;
+    margin-top: 3%;
+    line-height: 18px;
+}
+.food-facilities div{
+    margin-left: 9%;
+    font-weight: 600;
+}
+.readmore{
+    color: #339af0;
+    margin-left: 40%;
+    margin-bottom:6% ;
+}
+#booknow{
+    background-color:  #339af0;
+    padding: 17px 30px;
+    color: white;
+    border-radius: 8%;   
+    margin-left: 8%;
+    border-style: none;
+}
+#notnow{
+    padding: 15px 30px;
+    color: #339af0;
+    border-color: #339af0;
+    border-radius: 8%;   
+    margin-left: 15px; 
+}
+#down{
+    width: 30px;
+    height: 20px;
+    padding-top: 10px;
+}
+#arrowdown{
+    margin-top: 5%;
+}
+#home1{
+    gap: 30px;
+    margin-left: 10%;
+    font-weight: 800;
+    margin-right: 25%;
+    font-size: large;
+}
+#home1 a{
+    text-decoration: none;
+    color: #343a40;
+}
+.help{
+    color: #343a40;
+    margin-left: 25%;
+    margin-top: 3%;
+    font-weight: bold;
+}
+.help h3{
+    margin-bottom: 1%;
+    margin-top: 3%;
+    margin-left: 18%;
+}
+.help h1{
+     margin-left: 15%;
+}
+.fillform{
+    color: #343a40;
+    margin-left: 12%; 
+    margin-top: 4%;
+}
+.fillform ul {
+    
+    list-style: none;
+    display: flex;
+    gap: 8%;
+    border-radius: 5%;
+    padding-bottom: 5%;
+   
+}
+.fillform ul li input{
+    background-color: #e9ecef;
+    padding: 15px 35px;
+    border-style: none;
+}
+.fillform ul li label{
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+#message{
+    padding-right: 350px;
+    padding-bottom: 200px;
+    border-bottom-right-radius: 30%;
+}
+#about{
+    color: #343a40;
+    margin-left: 37%; 
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: x-large;
+}
+.shortstory{
+    display: flex;
+    margin-bottom: 4%;
+}
+#aboutimage1{
+    height: 380px;
+    width: 400px;
+    margin-left: 17%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%; 
+}
+.story{
+    line-height: 25px;
+    margin-left: 12%;
+    font-size: larger;
+    color: #343a40;
+    font-weight: bolder;
+
+}
+.story h1{
+    margin-bottom: 7%;
+}
+#toptext{
+    margin-bottom: 5%;
+}
+#notnow{
+    margin-top: 8%;
+    margin-left: 14%;
 }

@@ -1,0 +1,56 @@
+@media  screen and (max-width: 700px){
+    .navbar ul li{
+        gap: 2px;
+        margin: 1px;
+        font-size: 10px;
+
+    }
+    .topSection{
+        width: 470px;
+        height: 300px;
+        font-size: 5px;
+    }
+    #logInButton{
+        padding: 1px;
+        margin-left: -95%;
+    }
+    #signUpButton{
+        padding: 1px;
+        margin-left: -80%; 
+    }
+    .midtext{
+        margin: 2%;
+    }
+    .midtext p{
+        font-size: medium;
+    }
+    .reservations{
+        padding: 2px;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .popular{
+        font-size: 20px;
+        margin-left: 75px;
+    }
+    .popular-hotels{
+        margin-left: 1%;
+        gap: 8px;
+    }
+    .hotelone{
+            width: 150px;
+        }
+    .hoteltwo{
+        width: 150px;
+    }
+    .hotelthree{
+        width: 150px;
+    }
+    .navbarhotel{
+        background-color:antiquewhite;
+        gap: 2px;
+        margin: 1px;
+        font-size: 10px;
+    }
+
+}
