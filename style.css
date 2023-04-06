@@ -6,7 +6,7 @@
 .topSection{
     color: white;
     background-image: url(hotelview.jpg);
-    background-size: cover;
+    background-size: 100%;
     padding-bottom: 0.02px;
 }
 .navbar{
@@ -464,6 +464,7 @@
     gap: 25%;
     letter-spacing: 2px;
 }
+/* ***************** HOTEL PAGE ***************** */
 #top{
     font-weight: bold;
     margin-bottom: 3%;
