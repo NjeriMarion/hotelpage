@@ -3,7 +3,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .topSection{
         background-size: 100%;
@@ -115,7 +115,7 @@
     }
     .ourFacilities{
         display: grid;
-        grid-template-columns: 200px 200px ;
+        grid-template-columns: 150px 150px ;
         margin-left: 10%;
 
     }
@@ -166,8 +166,8 @@
     }
     .sixmeals{
         display: grid;
-        grid-template-columns: 250px;
-        margin-left: 10%;
+        grid-template-columns: 100px;
+        margin-left: 1%;
         gap: 3%;
         margin-top: 5%;
 
